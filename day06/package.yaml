@@ -1,0 +1,19 @@
+verbatim:
+  cabal-version: 3.4
+
+name: aoc2021-day06
+version: 0.0.0
+
+dependencies:
+  - base >= 4.9 && < 5
+  - containers
+  - megaparsec
+
+executable:
+  main: Main.hs
+  source-dirs: src
+  ghc-options:
+    -Wall
+    -threaded
+    -rtsopts
+    -with-rtsopts=-N
